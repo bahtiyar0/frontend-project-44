@@ -1,5 +1,5 @@
 #!/usr/bin/env node
+import isEven from '../src/cim.js';
 
-import startBrainEven from '../src/games/even.js';
-
-startBrainEven();
+console.log('Welcome to the EVEN!');
+isEven();
