@@ -23,18 +23,18 @@ const startGame = () => {
         const number1 = getRandomNumber(1, 100);
         const number2 = getRandomNumber(1, 100);
         const index = getRandomNumber(0, operatorArray.length - 1);
-        const selectedOperator = operatorArray[index];
-        const operator = selectedOperator;
+        const operator = operatorArray[index];
         const question = `${number1} ${operator} ${number2}`;
         console.log(`Question: ${question}`);
         const answer = readlineSync.question('Your answer: ');
         const result = calculate(number1, number2, operator);
-        if (answer === String(answer)) {
+        if (answer === String(result)) {
             console.log('Correct!');
             sum += 1;
         } else {
             console.log(`${answer} is wrong answer ;(. Correct answer was ${result}.`);
             console.log(`Let's try again, ${userName}!`);
+            return;
         }
     }
     if (sum === 3) {
