@@ -29,7 +29,7 @@ const startGame = () => {
         console.log(`Question: ${question}`);
         const answer = readlineSync.question('Your answer: ');
         const result = calculate(number1, number2, operator);
-        if (answer === result) {
+        if (answer === String(answer)) {
             console.log('Correct!');
             sum += 1;
         } else {
