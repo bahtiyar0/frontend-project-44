@@ -1,9 +1,5 @@
 #!/usr/bin/env node
-
 import startGreeting from '../src/cli.js';
 
-<<<<<<< HEAD
+console.log('Welcome to the Brain Games!');
 startGreeting();
-=======
-startGreeting();
->>>>>>> origin/main
