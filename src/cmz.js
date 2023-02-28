@@ -17,7 +17,7 @@ const calculate = (number1, number2, operator) => {
 const startGame = () => {
     const userName = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${userName}!`);
-    console.log('What is the result of the expression?\n')
+    console.log('What is the result of the expression?');
     let sum = 0;
     for (let i = 0; i < 3; i += 1) {
         const number1 = getRandomNumber(1, 100);
