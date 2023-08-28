@@ -8,8 +8,7 @@
 Игра начинается с команды:
 make brain-even
 
-<a href="https://asciinema.org/a/IMCuEt9FFof3plFlx3iydKMuB" target="_blank"><img src="https://asciinema.org/a/IMCuEt9FFof3plFlx3iydK$
-
+<a href="https://asciinema.org/a/5vBwCqxymnUgFkefjJyws6e6T" target="_blank"><img src="https://asciinema.org/a/5vBwCqxymnUgFkefjJyws6e6T.svg" /></a>
 
 Игра: "Калькулятор".
 Суть игры в следующем: игрокe показывается случайное число которое нужно сложить, вычесть, разделить или умножить в зависимости от данных. Ему нужно дать правильный ответ.
