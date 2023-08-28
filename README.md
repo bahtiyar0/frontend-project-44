@@ -1,6 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/bahtiyar0/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/bahtiyar0/frontend-project-44/actions)
 
+b71121588ee9f1a78bbd81d0f534eaadcf1ac4772419ce5b79fefb5d356e504f
 
 Описание
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
