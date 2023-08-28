@@ -13,6 +13,7 @@
 
 
 Начать игру можно путем выгрузки к себе в консоль.
+
 git clone: git@github.com:bahtiyar0/frontend-project-44.git
 cd frontend-project-44
 make install
